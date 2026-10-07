@@ -2,7 +2,7 @@
 
 A Python script I built to automatically collect worldwide earthquake information for Force 13's live earthquake coverage.
 
-The script was fully developed and working, but was ultimately never implemented into Force 13's live production workflow. It was intended to automate a process that otherwise involved much more manual checking and formatting of earthquake information.
+The script was fully developed and working, but was ultimately never implemented into Force 13's live production workflow. It was intended to automate a process that otherwise involved much more manual checking and formatting of earthquake information, along with a hardcoded lookup table of locations around the world.
 
 The script regularly checks EMSC for the newest reported earthquake, pulls the event's information, formats it into a consistent output, and sends it to a web endpoint designed for use by the livestream system.
 
